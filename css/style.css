@@ -1,0 +1,171 @@
+/******** Global     ***********/
+*{
+    margin: 0;
+    width: 100%;
+    border: 0;
+    box-sizing:content-box;
+}
+
+header, section, footer, aside, nav, article, figure, figcaption, hgroup{
+    display: block;
+}
+
+h1{
+    text-align:center;
+}
+
+#text-item{
+    margin: 10px;
+    font-family: monospace;
+    font-size: 20px;
+}
+
+/******** Encabezado     *******/
+
+#main-header{
+    width: 100%;
+    height: 100px;
+    
+    display:inline-flex;
+    justify-content: center;
+    align-items: center;
+    background-color:darkgray;
+}
+
+#title-header{
+    font-family: 'Fuente-Header';
+    font-size: 80px;
+    
+}
+/******** Barra Lateral  *******/
+
+#barra-lateral{
+    width: 25%;
+    height: 1300px;
+    float:right;
+
+    background-color:rgba(196, 197, 202, 0.979);
+    border-radius: 10px;
+    text-align: center;
+}
+
+#article-1{
+    margin: 10px;
+    width: 90%;
+    height: 100%;
+
+    display: flex;
+    justify-content:center;
+    align-content:space-around;
+    flex-direction: column;
+    image-rendering: optimizeQuality;
+}
+
+#image-article-1{
+    width: 100%;
+    margin: 10px;
+    border-radius: 10px;
+}
+
+#article-2{
+    width: 100%;
+    height: 100%;
+}
+
+#formulario-barra-lateral{
+    width: 100%;
+    display:flexbox;
+    flex-direction: column;
+}
+
+#box-input{
+    margin: 10px;
+    width: 70%;
+    border-radius: 10px;
+    border: 1px solid black;
+}
+
+#box-input-submit{
+    margin: 10px;
+    width: 40%;
+    border-radius: 10px;
+    border: 1px solid black;
+}
+
+/**** Sección Principal  *******/
+#main-section{
+    width: 70%;
+    height: 100%;
+    text-align: center;
+    background-color: white;
+    box-sizing:border-box;
+}
+
+#section-1{
+    margin: 10px;
+    width: 100%;
+    height: 50%;
+   
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#image-1{
+    width: 100%;
+    border-radius: 10px;
+}
+
+#section-2{
+    margin: 10px;
+    width: 100%;
+    height: 550px;
+
+    background-color:rgb(161, 168, 168);
+    border-radius: 10px;
+
+    display:flex;
+    flex-direction:row;
+    align-items: center;
+    justify-content:space-around;
+}
+
+#image-2,#image-3{
+    width: 90%;
+    border-radius: 10px;
+}
+
+#section-3{
+    width: 100%;
+    height: auto;
+    
+    text-align: justify;
+    font-size: 20px;
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#parrafo{
+    margin-left: 15px;
+    margin-right: 15px;
+    text-align: justify;
+    font-family:monospace;
+}
+
+/**** Sección Pie        *******/
+#main-footer{
+    margin: 0;
+    width: 100%;
+    height: 70px;
+  text-align: center;
+    font-size: 20px;
+    border-radius: 10px;
+
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
